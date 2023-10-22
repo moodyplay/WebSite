@@ -182,9 +182,7 @@ main > article[data-status="afterLeft"]{
     font-weight: 800;
     font-size: 3rem;
 }
-.title > p:hover{
-    color: blueviolet;
-}
+
 .nav{
     display:flex;
     justify-content: space-around;
