@@ -52,6 +52,9 @@ nav .fab{
     color: red;
     
 }
+nav .fa-facebook{
+    color:rgb(66, 103, 178);
+}
 #logo{
     justify-content: flex-start;
     color: lightgrey;
@@ -70,11 +73,11 @@ nav .fab{
     color: white;
     
 }
-#one:hover{
-    color:blueviolet;
-}
-i:hover{
-    color:blueviolet;
+
+i:hover::before{
+    transition: 0.2s;
+    scale:1.1;
+    
 }
 
 /* Main section below */
